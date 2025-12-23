@@ -60,7 +60,7 @@ body {
   &__link {
     position: relative;
     display: block;
-    padding: 22.5px 0;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 12px;
     color: $color-nav;
@@ -91,7 +91,6 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 200px);
   gap: 46px 48px;
-  justify-content: center;
   padding: 50px 40px;
 
   @media (min-width: 488px) {
