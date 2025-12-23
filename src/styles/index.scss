@@ -4,6 +4,8 @@ $color-title-hover: #34568b;
 $color-white: #fff;
 $color-border: #f3f3f3;
 $color-text-secondary: #616070;
+$color-star-inactive: #ccc;
+$color-star-active: #ffc107;
 $transition-speed: 300ms;
 $card-width: 200px;
 $font-size-main: 16px;
@@ -30,7 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 0 60px;
+  padding: 0 40px;
 }
 
 .logo {
@@ -206,7 +208,7 @@ body {
   &__star {
     width: 12px;
     height: 12px;
-    background-color: #ccc;
+    background-color: $color-star-inactive;
     clip-path: polygon(
       50% 0%,
       61% 35%,
@@ -222,6 +224,6 @@ body {
   }
 
   &--4 .stars__star:nth-child(-n + 4) {
-    background-color: #ffc107;
+    background-color: $color-star-active;
   }
 }
